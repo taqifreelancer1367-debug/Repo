@@ -1,6 +1,6 @@
 import Cards from './components/Cards'
 import Diff from './components/Diff'
-import Nav from './components/Nav'
+import Nav from './components/nav'
 import './App.css'
 const cards = [
   { id: "1", title: "Web Dev",  p: "3 Months", btn: "Click Here",   style: "bg-red-300 w-full p-4 rounded-2xl"  },
