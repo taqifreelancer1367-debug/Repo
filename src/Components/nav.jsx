@@ -7,7 +7,7 @@ function Nav(){
                 <a href="#">Contact US</a>
                 <a href="#">About US</a>
             </nav>
-            <button className="bg-blue-600 text-cyan-50 p-2 rounded-2xl">Click Here</button>
+            <button className="bg-blue-600 text-black p-2 rounded-2xl">Click Here</button>
         </div>
     )
 }
