@@ -10,6 +10,9 @@ function App() {
     {cards.map((card)=>{
       <Cards key={cards.id} title={cards.title} p={cards.p} btn={cards.btn}/>
     })}
+    <div>
+      
+    </div>
     </>
   )
 }
