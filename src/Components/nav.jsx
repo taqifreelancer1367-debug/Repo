@@ -1,4 +1,4 @@
-function nav(){
+function Nav(){
     return(
         <div>
             <img src="#" alt="Logo" />
@@ -11,4 +11,4 @@ function nav(){
         </div>
     )
 }
-export default nav
+export default Nav
