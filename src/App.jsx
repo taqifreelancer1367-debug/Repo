@@ -9,11 +9,11 @@ function App() {
   return (
     <>
     {cards.map((card)=>{
-      <Cards key={cards.id} title={cards.title} p={cards.p} btn={cards.btn}/>
+      <Cards key={card.id} title={card.title} p={card.p} btn={card.btn}/>
     })}
     <div>
       {cards.map((card)=>{
-      <d_stylee key={cards.id} title={cards.title} p={cards.p} btn={cards.btn}/>
+      <d_stylee key={card.id} title={card.title} p={card.p} btn={card.btn}/>
     })}
     </div>
     </>
