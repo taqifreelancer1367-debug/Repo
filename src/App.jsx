@@ -10,7 +10,7 @@ const cards = [
 function App() {
   return (
     <>
-    <Nav/>
+    <Nav />
     <h1 className='text-center text-4xl font-bold'>Services</h1>
     <div className='flex justify-center items-center gap-3 p-3'>
         {cards.map((card) => (

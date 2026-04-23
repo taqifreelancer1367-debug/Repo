@@ -1,6 +1,6 @@
 function Nav(){
     return(
-        <div>
+        <div className="flex justify-between items-center">
             <img src="#" alt="Logo" />
             <nav>
                 <a href="#">Home</a>
