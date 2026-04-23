@@ -1,4 +1,4 @@
-function d_style({title,p,btn,style}){
+function Diff({title,p,btn,style}){
     return(
         <div className={style}>
             <h1>{title}</h1>
@@ -7,4 +7,4 @@ function d_style({title,p,btn,style}){
         </div>
     )
 }
-export default d_style
+export default Diff

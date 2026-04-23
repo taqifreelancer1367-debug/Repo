@@ -1,22 +1,24 @@
 import Cards from './Components/Cards'
-import d_style from './Components/diff_style'
+import Diff from './Components/Diff'
 import './App.css'
 const cards = [
-  { id: "1", title: "Web Dev",  p: "3 Months", btn: "Click Here",   style: "bg-red-300"  },
-  { id: "2", title: "SEO",      p: "2 Months", btn: "Explore More", style: "bg-blue-300" },
-  { id: "3", title: "CEH",      p: "1 Month",  btn: "Click Here",   style: "bg-gray-300" },
+  { id: "1", title: "Web Dev",  p: "3 Months", btn: "Click Here",   style: "bg-red-300 w-full p-4 rounded-2xl"  },
+  { id: "2", title: "SEO",      p: "2 Months", btn: "Explore More", style: "bg-blue-300 w-full p-4 rounded-2xl" },
+  { id: "3", title: "CEH",      p: "1 Month",  btn: "Click Here",   style: "bg-gray-300 w-full p-4 rounded-2xl" },
 ]
 function App() {
   return (
     <>
+    <h1 className='text-center text-4xl font-bold'>Services</h1>
     <div className='flex justify-center items-center gap-3 p-3'>
         {cards.map((card) => (
         <Cards key={card.id} title={card.title} p={card.p} btn={card.btn} />
       ))}
     </div>
-      <div>
+    <h1 className='text-center text-4xl font-bold'>Team</h1>
+      <div className='flex justify-center items-center p-3 gap-3'>
         {cards.map((card) => (
-          <d_style key={card.id} title={card.title} p={card.p} btn={card.btn} />
+          <Diff key={card.id} title={card.title} p={card.p} btn={card.btn} style={card.style} />
         ))}
       </div>
     </>
