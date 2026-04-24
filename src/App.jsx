@@ -9,8 +9,9 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route>
-    <Nav />
-
+        <Nav />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
     </BrowserRouter>
