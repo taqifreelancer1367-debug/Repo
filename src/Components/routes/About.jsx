@@ -1,3 +1,5 @@
+import Diff from "../Diff"
+import Cards from "../Cards"
 
 const cards = [
   { id: "1", title: "Web Dev",  p: "3 Months", btn: "Click Here",   style: "bg-red-300 w-full p-4 rounded-2xl"  },
